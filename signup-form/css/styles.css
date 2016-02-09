@@ -1,6 +1,7 @@
 
 body{
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 h1, h3 {
   margin: 0;
@@ -9,15 +10,16 @@ h1, h3 {
 }
 .container{
   width: 500px;
-  height: 740px;
+
   border: 1px solid black;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 .header{
   background: url("http://lorempixel.com/500/280/sports/");
   color: white;
   text-align: center;
   padding: 40px 0;
-  margin-bottom: 15px;
 }
 .header hr {
   padding: 0;
@@ -26,7 +28,14 @@ h1, h3 {
   border: 1.5px solid white;
 }
 .contact-form{
+}
+
+.form-top {
   position: relative;
+  background-color: #998d6e;
+background-image: url("http://www.transparenttextures.com/patterns/exclusive-paper.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    height: 275px;
 }
 .f-name-inpt {
   top: 10px;
@@ -48,25 +57,36 @@ input {
   width: 200px;
   height: 25px;
   font-size: 1.5em;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  /*border-radius: 10px;*/
+  background: transparent;
 }
 textarea {
   font-size: 1em;
+  border-radius: 10px;
 }
 .comment-area {
-  top: 300px;
+  top: 20px;
   left: 74.5px;
 }
 .submit-btn {
-  top: 450px;
+  top: 175px;
   left:175px;
 }
 button {
-  padding: 10px
+  padding: 10px;
+  border-radius: 10px;
 }
-.contact-form hr{
-width: 100%;
-top:265px;
-}
+
 .absolute{
   position: absolute;
+}
+.footer {
+  position: relative;
+  background-color: #706045;
+  background-image: url("http://www.transparenttextures.com/patterns/exclusive-paper.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  height: 250px;
+
 }

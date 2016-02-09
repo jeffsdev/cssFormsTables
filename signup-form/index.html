@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Signup Form</title>
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css"ß>
   </head>
   <body>
     <div class="container">
@@ -12,38 +13,46 @@
         <hr>
         <h3>Fill out the form below to learn more!</h3>
       </div>
-      <form class="contact-form">
-        <div class="f-name-inpt absolute">
-          <label for="f-name"> First Name: </label>
-          <br>
-          <input type="text" name="f-name">
-        </div>
-        <div class="l-name-inpt absolute">
-          <label for="l-name">Last Name: </label>
-          <br>
-          <input type="text" name="l-name">
-        </div>
-        <div class="number-inpt absolute">
-          <label for="p-number">Phone Number: </label>
-          <br>
-          <input type="text" name="p-number">
-        </div>
-        <div class="email-inpt absolute">
-          <label for="email-addr">Email: </label>
-          <br>
-          <input type="text" name="email-addr">
-        </div>
-        <hr class="absolute">
-        <div class="comment-area absolute">
-          <label for="text-area">Comments</label>
-          <br>
-          <textarea name="comments" rows="6" cols="40"></textarea>
-        </div>
-        <div class="submit-btn absolute">
-          <button type="submit" name="button">SUBMIT</button>
-          <label for="option">or press Enter</label>
-        </div>
-      </form>
+
+      <div class="contact-form">
+        <form>
+          <div class="form-top">
+            <div class="f-name-inpt absolute">
+              <label for="f-name"> First Name: </label>
+              <br>
+              <input type="text" name="f-name">
+            </div>
+            <div class="l-name-inpt absolute">
+              <label for="l-name">Last Name: </label>
+              <br>
+              <input type="text" name="l-name">
+            </div>
+            <div class="number-inpt absolute">
+              <label for="p-number">Phone Number: </label>
+              <br>
+              <input type="text" name="p-number">
+            </div>
+            <div class="email-inpt absolute">
+              <label for="email-addr">Email: </label>
+              <br>
+              <input type="text" name="email-addr">
+            </div>
+          </div>
+          <!-- <hr class="absolute"> -->
+
+          <div class="footer">
+            <div class="comment-area absolute">
+              <label for="text-area">Comments</label>
+              <br>
+              <textarea name="comments" rows="6" cols="40"></textarea>
+            </div>
+            <div class="submit-btn absolute">
+              <button type="submit" name="button">SUBMIT</button>
+              <label for="option">or press Enter</label>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
