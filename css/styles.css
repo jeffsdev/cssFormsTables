@@ -1,0 +1,93 @@
+@font-face{
+  font-family : "typewriter";
+
+  src : url('font/typewriter/veteran_typewriter-webfont.eot');
+  src : url('font/typewriter/veteran_typewriter-webfont.eot?') format('eot'),
+        url('font/typewriter/veteran_typewriter-webfont.woff') format('woff'),
+        url('font/typewriter/veteran_typewriter-webfont.ttf') format('truetype');
+}
+@font-face{
+  font-family : "journal";
+
+  src : url('font/journal/journal-webfont.eot');
+  src : url('font/journal/journal-webfont.eot?') format('eot'),
+        url('font/journal/journal-webfont.woff') format('woff'),
+        url('font/journal/journal-webfont.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-size: 21px;
+  box-sizing: border-box;
+}
+
+.absolute {
+  position: absolute;
+}
+
+input,
+textarea {
+  font-family: "journal";
+  background: transparent;
+  font-size: 1.5em;
+  border: none;
+}
+
+input {
+  margin-left: 10px;
+}
+
+button{
+  font: 0.6em sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  transform: rotate(-1.5deg);
+
+
+}
+
+.postcard {
+  position: relative;
+  width: 740px;
+  height: 498px;
+  margin: 0 auto;
+  background: url('../img/background.jpg');
+  font-family: "typewriter";
+}
+
+.receiver {
+  right: 60px;
+  top: 180px;
+}
+
+.sender {
+  right: 60px;
+  top: 230px;
+}
+
+.reply {
+  right: 60px;
+  top: 285px;
+}
+
+.message {
+  left: 30px;
+  top: 100px;
+}
+
+.message textarea {
+  margin-top: 20px;
+  font-size: 1.5em;
+  background: transparent;
+  letter-spacing: 2px;
+  line-height: 0.8em;
+}
+
+.send-btn {
+  right: 130px;
+  top: 360px;
+}
