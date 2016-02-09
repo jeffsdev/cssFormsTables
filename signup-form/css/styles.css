@@ -1,0 +1,72 @@
+
+body{
+  box-sizing: border-box;
+}
+h1, h3 {
+  margin: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.container{
+  width: 500px;
+  height: 740px;
+  border: 1px solid black;
+}
+.header{
+  background: url("http://lorempixel.com/500/280/sports/");
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  margin-bottom: 15px;
+}
+.header hr {
+  padding: 0;
+  margin: 0;
+  color: white;
+  border: 1.5px solid white;
+}
+.contact-form{
+  position: relative;
+}
+.f-name-inpt {
+  top: 10px;
+  left: 147px;
+}
+.l-name-inpt {
+  top: 70px;
+  left: 147px;
+}
+.number-inpt {
+  top: 130px;
+  left: 147px;
+}
+.email-inpt {
+  top: 190px;
+  left: 147px;
+}
+input {
+  width: 200px;
+  height: 25px;
+  font-size: 1.5em;
+}
+textarea {
+  font-size: 1em;
+}
+.comment-area {
+  top: 300px;
+  left: 74.5px;
+}
+.submit-btn {
+  top: 450px;
+  left:175px;
+}
+button {
+  padding: 10px
+}
+.contact-form hr{
+width: 100%;
+top:265px;
+}
+.absolute{
+  position: absolute;
+}
